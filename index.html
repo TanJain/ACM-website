@@ -10,10 +10,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel = "stylesheet" type = "text/css" href = "extra.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>IIITD - ACM Homepage</title>
+    <script>
+		$(document).ready(function(){
+		  $('[data-toggle="tooltip"]').tooltip();   
+		});
+    </script>
 </head>
 <body class="bg-gradient-light">
 
@@ -46,16 +53,24 @@
         <p class="lead">This is still in works, Don't judge thenks</p>
     </div>
     
-    <div class = " container ">
-			<div class = "fixed-bottom text-center text-white border bg-col"><br>
-					<p>
-						Department of Computer Science and Engineering,Indrapastha Institute of Information Technology, New Delhi - 110020, India
-					</p>
-					<p class = "h4"> Contact </p>
-					<a href ="#" class = "fa fa-facebook"></a>
-					<a href ="https://www.gmail.com/" class = "fa fa-google"></a>
-					<p><br>ACM Student Chapter -IIIT Delhi © 2019<p>
+    <div class = "fixed-bottom footer-wrapper #212121 grey darken-3">
+		<div class = "row" style="padding: 50px;">
+			<div class = "col s12 m6">
+				<p style = "color:#e2e2e2; font-size: 25px;">Reach out to us at:</p>
+				<div class = "social-links">
+					<a href="https://www.facebook.com/acm.iiitd/" data-toggle = "tooltip" title="Facebook" data-placement = "bottom" data-delay = "50" data-position = "bottom" target="_blank"><img src="fb.png" alt="ACM IIITD"></a>
+					<a href="mailto:acm@iiitd.ac.in" data-toggle = "tooltip" title="Mail" data-placement = "bottom" data-delay = "50" data-position = "bottom" target="_blank"><img src="mail.png" alt="ACM IIITD"></a>
+					<a href="" data-toggle = "tooltip" title="Phone" data-placement = "bottom" data-delay = "50" data-position = "bottom" target="_blank"><img src="call.png" alt="ACM IIITD"></a>
+				</div>
+			</div>
+			<div class = "col s12 m6 ">
+				<img src = "iiitd_logo.png" alt = "IIIT Logo" width="500" height="100" align="right">
+			</div>
 		</div>
+		<div class = " text-center">
+			<p style = "color: #e2e2e2; font-size: 18px">ACM Student Chapter -IIIT Delhi © 2019</p>
+		</div>
+	</div>
 
 </body>
 </html>
