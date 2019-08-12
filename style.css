@@ -51,6 +51,32 @@ html,body{
     animation: slidein 7s infinite;
 }
 
+
+#landing-subtitle{
+    /* background: purple; */
+    font-size:25px;
+    font-weight: 300;
+    color: #999;
+}
+
+
+
+.nav-link{
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight: 400;
+}
+
+.fixed-top{
+    background-color: #0000;
+    transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled{
+    background-color: #fff;
+    transition: background-color 200ms linear;
+}
+
 @keyframes showup{
     0% {opacity:0;}
     20% {opacity:1;}
