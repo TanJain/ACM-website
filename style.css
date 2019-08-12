@@ -73,7 +73,7 @@ html,body{
 }
 
 .fixed-top.scrolled{
-    background-color: #eee;
+    background-color: rgb(21, 77, 133);
     transition: background-color 200ms linear;
 }
 
