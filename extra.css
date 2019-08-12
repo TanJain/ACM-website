@@ -33,7 +33,6 @@ body{
 	min-height: 100%;
 }
 .footer{
-	position: relative;
     bottom: 0;
     min-width: 100%;
     padding: 1rem;
