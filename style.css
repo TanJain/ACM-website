@@ -57,7 +57,7 @@ html,body{
     font-size:25px;
     font-weight: 300;
 
-    background: linear-gradient(to right,#fff 20%,#000 40%,#fff 60%,#000 80%);
+    background: linear-gradient(to right,#bbb 20%,#888 40%,#bbb 60%,#888 80%);
     background-size: 200% auto;
 
     color:#000;
