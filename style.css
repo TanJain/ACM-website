@@ -1,0 +1,20 @@
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    width:100%;
+}
+.intro{
+    background: purple;
+    height: 100%;
+    width: 100%;
+    display: table;
+    top:0;
+    margin:auto;
+}
+
+#title-first #title-second {
+    display:inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
