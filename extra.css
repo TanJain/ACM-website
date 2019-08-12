@@ -15,6 +15,26 @@
   border-top: 20px #00acd6 !important;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
 .footer{
-	padding: 1rem;
+	position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    padding: 1rem;
 }
