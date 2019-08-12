@@ -1,20 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 html,body{
     margin: 0;
     padding:0;
     height: 100%;
     width:100%;
 }
+
 .intro{
-    background: purple;
+    background: linear-gradient(120deg,#fff 25%,#eee 50%,#fff 100%);
     height: 100%;
     width: 100%;
     display: table;
     top:0;
     margin:auto;
+    font-family: 'Roboto';
+    font-size:50px;
+    font-weight: 300;
+    padding-top:40vh;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
 }
 
-#title-first #title-second {
-    display:inline-block;
+
+#title-first {
+    /* background: pink; */
     overflow: hidden;
     white-space: nowrap;
+    color:black;
+    display: inline-block;
+    /* background: white; */
+    animation:showup 7s infinite;
+    height: 80px;
+}
+
+#title-second {
+    height: 80px;
+    /* background: purple; */
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width:0px;
+    animation: reveal 7s infinite ;
+}
+
+#title-second div{
+    margin-left:-400px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup{
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein{
+    0%{margin-left: -800px;}
+    20%{margin-left: -800px;}
+    35%{margin-left:0px}
+    100%{margin-left:0px}
+}
+
+@keyframes reveal{
+    0%{opacity: 0;width: 0px;}
+    20%{opacity: 1; width:0px;}
+    30%{width: 400px;}
+    80%{opacity: 1;}
+    100%{opacity: 0;width:400px;}
 }
