@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
 html,body{
     margin: 0;
     padding:0;
@@ -24,6 +24,21 @@ html,body{
   -webkit-transform: translate3d(0,0,0);
 }
 
+.heading {
+    height: 15vh;
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 4em;
+    font-weight: 300;
+}
+
+.heading p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #title-first {
     /* background: pink; */
