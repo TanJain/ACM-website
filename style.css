@@ -125,6 +125,7 @@ html,body{
     font-family: 'Roboto';
     font-size: 4em;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .heading p{
@@ -138,10 +139,10 @@ html,body{
 .mcard{
     /* background: red; */
     width:80vw;
+    display: flex;
     height: 200px;
     margin:auto;
-    display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     box-shadow: 5px 5px 10px #777;
 }
 
@@ -157,5 +158,6 @@ html,body{
 }
 
 .mcard h5{
+    font-size: 3em;
     font-weight: 300;
 }
