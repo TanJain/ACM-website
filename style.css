@@ -139,7 +139,7 @@ html,body{
 .mcard{
     /* background: red; */
     width:80vw;
-    display: flex;
+    /* display: flex; */
     height: 200px;
     margin:auto;
     margin-bottom: 70px;
@@ -160,4 +160,8 @@ html,body{
 .mcard h5{
     font-size: 3em;
     font-weight: 300;
+}
+
+.mcard td{
+    height:100px;
 }
