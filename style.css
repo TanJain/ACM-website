@@ -148,13 +148,19 @@ html,body{
 
 .mcard img{
     width:200px;
+    margin:0 50px;
     /* background: purple; */
+}
+
+.pic{
+    width:200px;
 }
 
 .mcard-text{
     padding-left:20px;
     padding-right:20px;
     font-family: 'Roboto';
+    background: 
 }
 
 .mcard h5{
