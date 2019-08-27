@@ -16,7 +16,6 @@ html,body{
     top:0;
     margin:auto;
     font-family: 'Roboto';
-    font-size:50px;
     font-weight: 300;
     padding-top:40vh;
     text-align: center;
@@ -27,6 +26,8 @@ html,body{
 
 
 #title-first {
+    
+    font-size:50px;
     /* background: pink; */
     overflow: hidden;
     white-space: nowrap;
@@ -39,6 +40,7 @@ html,body{
 
 #title-second {
     height: 80px;
+    font-size:50px;
     /* background: purple; */
     overflow: hidden;
     white-space: nowrap;
@@ -49,6 +51,7 @@ html,body{
 
 #title-second div{
     margin-left:-400px;
+    font-size:50px;
     animation: slidein 7s infinite;
 }
 
@@ -160,7 +163,7 @@ html,body{
     padding-left:20px;
     padding-right:20px;
     font-family: 'Roboto';
-    background: 
+    
 }
 
 .mcard h5{
@@ -171,3 +174,17 @@ html,body{
 .mcard td{
     height:100px;
 }
+
+.mcard b{
+    font-size: 1.3em;
+    color:#999;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.home-text {
+    font-family: 'Roboto';
+    font-size:1em;
+}
+
